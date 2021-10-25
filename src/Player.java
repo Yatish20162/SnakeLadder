@@ -2,7 +2,7 @@ public class Player
 {
     private String name;
     private int points;
-    private int floor;
+    private int floor=0;
     Player(String name,int pts,int floor)
     {
         this.name=name;

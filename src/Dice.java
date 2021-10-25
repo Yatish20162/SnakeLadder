@@ -12,4 +12,8 @@ public class Dice
         Random rand=new Random();
         number_showing=rand.nextInt(2)+1;
     }
+
+    public int getNumber_showing() {
+        return number_showing;
+    }
 }
