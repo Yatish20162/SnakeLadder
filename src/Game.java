@@ -20,7 +20,7 @@ public class Game
         {
             ladder(player.getPoints());return;
         }
-        if(floor==9)
+        if(floor==11)
         {
             cobra_snake(player.getPoints());return;
         }

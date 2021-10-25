@@ -70,7 +70,7 @@ public class Main extends Game {
         if(x+dice_roll>13){return;}
         if(x+dice_roll==13){end=true;}
         player.setFloor(x+dice_roll);
-//        System.out.println("Player floor :" + player.getFloor());
+
         x= player.getFloor();
         new Game(player,x);
 
